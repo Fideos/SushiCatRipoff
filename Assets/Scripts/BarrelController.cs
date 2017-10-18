@@ -8,7 +8,7 @@ public class BarrelController : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
-			Debug.Log("Got a Cupcake!");
+			Debug.Log("Got sum Sushi yum yum...");
             MyGameManager.instance.AddScore(10);
             Destroy(gameObject);
 		}

@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  prefab: {fileID: 1181693095767638}
 --- !u!212 &212341333445796166
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -8,8 +8,14 @@ public class PlayerController : MonoBehaviour {
     private bool release;
 
     Vector3 target;
+    
 
-	void Update()
+    void start()
+    {
+        Cursor.visible = false;
+    }
+
+    void Update()
     {
         if (!release)
         {
